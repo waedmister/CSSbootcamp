@@ -1,0 +1,38 @@
+.rowone {
+  background-color: #39474e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.TIY {
+  position: relative;
+  top: 50%;
+  transform: translateY(5%);
+}
+.get {
+  text-align: center;
+  color: white;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  background-color: #6fbbb7;
+  border-radius: 3px;
+  font-size: 16px;
+  position: relative;
+  top: 50%;
+  transform: translateY(40%);
+  width: 125px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.picbox {
+  background-image: url("../images/amy.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+.mainheading {
+  color: white;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
