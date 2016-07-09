@@ -50,6 +50,9 @@
   font-style: italic;
   padding-left: 225px;
   background-color: #6fbbb7;
+  border: 1px solid #727d84;
+  width: 400px;
+  margin-left: 225px;
 }
 .cologos {
   height: 80px;
@@ -58,12 +61,93 @@
   background-color: #e3e7e9;
 }
 
-h4 {
+.rowfour {
+  padding-left: 225px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
   color: #727d84;
   font-family: 'PT Serif', serif;
-  font-weight: bold;
+  font-weight: bolder;
   font-style: italic;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
-h5 {
+h4 {
+  line-height: inherit;
   font-family: 'PT Serif', serif;
+  color: #727d84;
+  font-size: 16px;
+}
+.rowfourright {
+  background-color: #e3e7e9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.shortontime {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'PT Serif', serif;
+  color: black;
+  line-height: inherit;
+  padding-left: 10px;
+  margin-bottom: -3px;
+}
+.shortontimetext {
+  font-family: 'PT Serif', serif;
+  color: #727d84;
+  font-size: 17px;
+  line-height: normal;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.youremailaddress {
+  background-color: white;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: #727d84;
+  padding: 10px;
+  border: 1px solid #727d84;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.emailmethefactsheet {
+  background-color: #6fbbb7;
+  padding: 10px;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  border: 1px solid #727d84;
+  border-radius: 3px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rowfive {
+  background-color: #e3e7e9;
+}
+
+.discoverourcourses {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: #727d84;
+  text-align: center;
+  font-weight: bold;
+}
+
+.discoverourcoursestext {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  color: #727d84;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
 }
