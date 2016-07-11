@@ -22,7 +22,6 @@
   padding-bottom: 15px;
   margin-left: -15px;
   margin-right: -15px;
-
 }
 .picbox {
   background-image: url("../images/amy.jpg");
@@ -39,11 +38,14 @@
   color: white;
   font-family: 'PT Serif', serif;
   font-weight: bold;
+  line-height: inherit;
 }
 .typingtext {
   color: white;
   font-family: 'PT Serif', serif;
   font-weight: bold;
+  font-size: 22px;
+  font-style: normal;
 }
 
 .watchvideobutton {
@@ -52,7 +54,7 @@
   border-radius: 5px;
   position: relative;
   top: 50%;
-  transform: translateY(250%);
+  transform: translateY(350%);
 }
 
 a:hover {
@@ -79,11 +81,6 @@ a:hover {
   background-color: #e3e7e9;
 }
 
-.rowfour {
-  padding-left: 225px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
 h3 {
   color: #727d84;
@@ -163,10 +160,8 @@ h4 {
 
 .discoverourcoursestext {
   font-family: 'PT Serif', serif;
-  color: #black;
+  color: black;
   text-align: center;
-  padding-left: 250px;
-  padding-right: 250px;
   font-size: 16px;
 }
 .rowsix {
@@ -219,7 +214,7 @@ h4 {
   background-image: url("../images/employers-image.jpg");
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 850px;
 }
 .employerlogos {
   height: 90px;
@@ -329,15 +324,18 @@ h4 {
   font-weight: bolder;
 }
 
-@media (min-width: @screen-md-min) {
+@media (min-width: 767-md-min) {
   .get {
       width: 125px;
       margin-left: 15px;
       margin-right: 15px;
       border-radius: 3px;
   }
-.mainheading {
-
-}
-
-}
+  .rowfour {
+    padding-left: 225px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .discoverourcoursestext {
+    padding-left: 250px;
+    padding-right: 250px;
