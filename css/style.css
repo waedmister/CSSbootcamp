@@ -30,25 +30,29 @@
   background-position: center;
   height: 600px;
 }
+.wherewill {
+  position: relative;
+  top: 50%;
+  transform: translateY(95%);
+}
 .mainheading {
   color: white;
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  font-size: 50px;
-  padding-left: 225px;
-  padding-top: 225px;
 }
 .typingtext {
   color: white;
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  padding-left: 225px;
 }
 
 .watchvideobutton {
   background-color: #6fbbb7;
   padding: 10px;
   border-radius: 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(250%);
 }
 
 a:hover {
@@ -332,4 +336,8 @@ h4 {
       margin-right: 15px;
       border-radius: 3px;
   }
+.mainheading {
+
+}
+
 }
